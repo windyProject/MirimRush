@@ -18,7 +18,6 @@ public class Car : MonoBehaviour
     public float maxMotorTorque;
     public float maxSteeringAngle;
 
-
     public void ApplyLocalPositionToVisuals(WheelCollider collider)
     {
         if (collider.transform.childCount == 0)
@@ -39,7 +38,7 @@ public class Car : MonoBehaviour
 
     public void FixedUpdate()
     {
-  
+
         float motor = maxMotorTorque * Input.GetAxis("Vertical") * -1; //속도 
         float steering = maxSteeringAngle * Input.GetAxis("Horizontal"); //방향 -> 마우스 방향으로  
 
@@ -49,7 +48,7 @@ public class Car : MonoBehaviour
         {
             if (axleInfo.steering)
             {
-                axleInfo.leftWheel.steerAngle = steering; 
+                axleInfo.leftWheel.steerAngle = steering;
                 axleInfo.rightWheel.steerAngle = steering;
             }
 
