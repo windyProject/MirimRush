@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{FC1CC655-5EAA-B983-ED23-7BDD0F02FC30}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KartGame", "KartGame.csproj", "{EF3F4C39-83BE-A510-C476-607496B165A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{FC1CC655-5EAA-B983-ED23-7BDD0F02FC30}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLAgentsToolKit", "MLAgentsToolKit.csproj", "{4236FC83-099E-8243-4FE1-E8DA18DA5759}"
 EndProject
@@ -21,14 +21,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FC1CC655-5EAA-B983-ED23-7BDD0F02FC30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FC1CC655-5EAA-B983-ED23-7BDD0F02FC30}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FC1CC655-5EAA-B983-ED23-7BDD0F02FC30}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FC1CC655-5EAA-B983-ED23-7BDD0F02FC30}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EF3F4C39-83BE-A510-C476-607496B165A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EF3F4C39-83BE-A510-C476-607496B165A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF3F4C39-83BE-A510-C476-607496B165A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF3F4C39-83BE-A510-C476-607496B165A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC1CC655-5EAA-B983-ED23-7BDD0F02FC30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC1CC655-5EAA-B983-ED23-7BDD0F02FC30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC1CC655-5EAA-B983-ED23-7BDD0F02FC30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC1CC655-5EAA-B983-ED23-7BDD0F02FC30}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4236FC83-099E-8243-4FE1-E8DA18DA5759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4236FC83-099E-8243-4FE1-E8DA18DA5759}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4236FC83-099E-8243-4FE1-E8DA18DA5759}.Release|Any CPU.ActiveCfg = Release|Any CPU
