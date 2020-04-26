@@ -42,7 +42,7 @@ public class Car : MonoBehaviour
         float motor = maxMotorTorque * Input.GetAxis("Vertical");
         float steering = maxSteeringAngle * Input.GetAxis("Horizontal");
 
-        handle.transform.Rotation += new Vector3(Input.GetAxis("Horizontal"), 0, 0);
+    //    handle.transform.rotation = Quaternion.Euler(Input.GetAxis("Horizontal"), 0, 0); 
 
         foreach (AxleInfo axleInfo in axleInfos)
         {
