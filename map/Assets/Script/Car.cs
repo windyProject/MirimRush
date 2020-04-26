@@ -10,9 +10,9 @@ public class AxleInfo
     public bool motor;
     public bool steering;
 }
-
 public class Car : MonoBehaviour
 {
+    public GameObject handle;
     public List<AxleInfo> axleInfos;
     public float maxMotorTorque;
     public float maxSteeringAngle;
@@ -41,6 +41,8 @@ public class Car : MonoBehaviour
 
         float motor = maxMotorTorque * Input.GetAxis("Vertical");
         float steering = maxSteeringAngle * Input.GetAxis("Horizontal");
+
+        handle.transform.Rotation += new Vector3(Input.GetAxis("Horizontal"), 0, 0);
 
         foreach (AxleInfo axleInfo in axleInfos)
         {
