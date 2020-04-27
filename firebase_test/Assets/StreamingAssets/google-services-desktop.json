@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1054703445947",
+    "firebase_url": "https://mirimrush-test.firebaseio.com",
+    "project_id": "mirimrush-test",
+    "storage_bucket": "mirimrush-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054703445947:android:59f4ab1a56ff498590469e",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.mirimrush_firebase_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054703445947-1sibu9n0i088cmih0a0ds2kcf8qoqs3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz24jpys3wQJ6AKnBycjuqSFtTwCrRUkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054703445947-1sibu9n0i088cmih0a0ds2kcf8qoqs3g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
